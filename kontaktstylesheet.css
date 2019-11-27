@@ -105,7 +105,7 @@ main {
 	line-height: 0.5;
 }
 .woman{
-	grid-column: 2 / 4;	
+	grid-column: 1 / 5;	
 }
 
 .sectioncenter{
@@ -181,7 +181,6 @@ main {
 	background-color: white;
 	border-radius: 5px;
 }
-
 
 /*we name areas using the grid-area properly */
 
@@ -273,12 +272,9 @@ main {
 	line-height: 0.5;
 }
 .woman{
-	grid-column: 3 / 7;	
+	grid-column: 1 / 13;	
 }
 
-.generation{
-	grid-column: 7 / 13;
-	width: 10%;
 }
 .sectioncenter{
 	text-align: center;
@@ -300,7 +296,7 @@ main {
 	text-align: center;
 	color: black;
 	padding: 1.2%;
-	background-color: #e5e5e5;
+	background-color:#e5e5e5;
 }
 
 .footer1 {
