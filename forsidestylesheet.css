@@ -6,7 +6,7 @@
 	font: 1.2em 'Montserrat-light', sans-serif;
 	
 	display: grid;
-	grid-template-columns: repeat(4, 1fr)
+	grid-template-columns: repeat(4, 1fr);
 }
 
 .wrapper > * {
@@ -23,9 +23,13 @@
 }
 
 .main-head img {
-	width: 80px;
-	margin-left: 15%;
-	margin-right: 15%;
+	display: block;
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+	
 }
 
 .main-nav{
@@ -70,8 +74,8 @@ main {
 
 .par {
 	grid-column: 1 / 5;
-	width: 1000px;
-	padding: 
+	width: 100%;
+	/*padding: */
 }
 
 .h1{
@@ -94,8 +98,8 @@ main {
 }
 
 .flaske {
-	grid-column: 2 / 4;
-	
+	grid-column: 1 / 5;
+	width: 100%;
 }
 .knapdecoration{
 	text-decoration: none;
@@ -103,7 +107,8 @@ main {
 }
 .sectioncenter{
 	text-align: center;
-	grid-column: 2/4;
+	grid-column: 1 / 5;
+	padding-bottom: 30px;
 	}
 
 .sectiongrid {
@@ -115,7 +120,7 @@ main {
 
 button {
 	grid-column: 2 / 4;
-	background-color: #CBB4D6;
+	background-color: #0071BC;
 	border: none;
 	border-radius: 15px;
 	color: white;
