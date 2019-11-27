@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 .wrapper{
-	max-width: 1024px;
+	/*max-width: 1024px;*/
 	margin: 0 auto;
 	font: 1.2em 'Montserrat-light', sans-serif;
 	

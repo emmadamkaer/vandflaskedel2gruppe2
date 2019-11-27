@@ -67,7 +67,7 @@ ul {
 main {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-column: 3 / 4;
+	grid-column: 1 / 5;
 }
 .app{
 	grid-column: 1 / 5;
@@ -76,9 +76,13 @@ main {
 
 .omflasken{
 	grid-column: 3 / 4;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 .omappen{
 	grid-column: 2 / 4;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 
 .knapdecoration{
