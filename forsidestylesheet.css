@@ -23,6 +23,7 @@
 }
 
 .main-head img {
+	width: 80px;
 	margin-left: 15%;
 	margin-right: 15%;
 }
@@ -69,6 +70,8 @@ main {
 
 .par {
 	grid-column: 1 / 5;
+	width: 1000px;
+	padding: 
 }
 
 .h1{
